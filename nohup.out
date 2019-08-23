@@ -1,0 +1,153 @@
+[0;33mApplication is running as root (UID 0). This is considered insecure.[0m
+
+        ██╗ ██╗   ██╗ ████████╗ ███████╗   ██████╗ ████████╗ ████████╗ ███████╗
+        ██║ ██║   ██║ ╚══██╔══╝ ██╔═══██╗ ██╔════╝ ╚══██╔══╝ ██╔═════╝ ██╔═══██╗
+        ██║ ████████║    ██║    ███████╔╝ ╚█████╗     ██║    ██████╗   ███████╔╝
+  ██╗   ██║ ██╔═══██║    ██║    ██╔════╝   ╚═══██╗    ██║    ██╔═══╝   ██╔══██║
+  ╚██████╔╝ ██║   ██║ ████████╗ ██║       ██████╔╝    ██║    ████████╗ ██║  ╚██╗
+   ╚═════╝  ╚═╝   ╚═╝ ╚═══════╝ ╚═╝       ╚═════╝     ╚═╝    ╚═══════╝ ╚═╝   ╚═╝
+
+:: JHipster 🤓  :: Running Spring Boot 2.1.6.RELEASE ::
+:: https://www.jhipster.tech ::
+
+2019-08-20 22:14:37.826  INFO 21784 --- [           main] com.mycompany.myapp.Microservice1App     : The following profiles are active: dev,swagger
+2019-08-20 22:14:41.044  WARN 21784 --- [           main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-08-20 22:14:43.558  WARN 21784 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-08-20 22:14:45.027  INFO 21784 --- [           main] c.mycompany.myapp.config.WebConfigurer   : Web application configuration, using profiles: dev
+2019-08-20 22:14:45.029  INFO 21784 --- [           main] c.mycompany.myapp.config.WebConfigurer   : Web application fully configured
+2019-08-20 22:14:45.257 DEBUG 21784 --- [           main] c.m.myapp.config.AsyncConfiguration      : Creating Async Task Executor
+2019-08-20 22:14:45.290 DEBUG 21784 --- [           main] c.m.myapp.config.LiquibaseConfiguration  : Configuring Liquibase
+2019-08-20 22:14:45.652  WARN 21784 --- [ervice-1-task-1] i.g.j.c.liquibase.AsyncSpringLiquibase   : Starting Liquibase asynchronously, your database might not be ready at startup!
+2019-08-20 22:14:50.626 DEBUG 21784 --- [ervice-1-task-1] i.g.j.c.liquibase.AsyncSpringLiquibase   : Liquibase has updated your database in 4972 ms
+2019-08-20 22:14:52.078  INFO 21784 --- [           main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-08-20 22:14:52.614  INFO 21784 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-08-20 22:14:52.614  INFO 21784 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-08-20 22:14:53.006  INFO 21784 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-08-20 22:14:53.010  INFO 21784 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-08-20 22:14:53.562  INFO 21784 --- [           main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-08-20 22:14:53.657  INFO 21784 --- [           main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2019-08-20 22:14:53.657  INFO 21784 --- [           main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2019-08-20 22:14:53.657  INFO 21784 --- [           main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2019-08-20 22:14:53.657  INFO 21784 --- [           main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2019-08-20 22:14:53.658  INFO 21784 --- [           main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2019-08-20 22:14:53.658  INFO 21784 --- [           main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2019-08-20 22:14:53.658  INFO 21784 --- [           main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2019-08-20 22:14:54.115  INFO 21784 --- [           main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2019-08-20 22:14:54.120  INFO 21784 --- [           main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 5
+2019-08-20 22:14:54.124  INFO 21784 --- [           main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 12
+2019-08-20 22:14:54.130  INFO 21784 --- [           main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1566310494128 with initial instances count: 1
+2019-08-20 22:14:56.997 DEBUG 21784 --- [           main] c.m.m.c.o.OAuth2JwtAccessTokenConverter  : Public key retrieved from OAuth2 server to create SignatureVerifier
+2019-08-20 22:14:57.126  WARN 21784 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-08-20 22:14:58.480 DEBUG 21784 --- [           main] i.g.j.c.apidoc.SwaggerAutoConfiguration  : Starting Swagger
+2019-08-20 22:14:58.499 DEBUG 21784 --- [           main] i.g.j.c.apidoc.SwaggerAutoConfiguration  : Started Swagger in 18 ms
+2019-08-20 22:14:59.324  INFO 21784 --- [tbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MICROSERVICE1/microservice1:5fc6f5e40bfa08a10738e321df12e073 - Re-registering apps/MICROSERVICE1
+2019-08-20 22:14:59.325  INFO 21784 --- [tbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MICROSERVICE1/microservice1:5fc6f5e40bfa08a10738e321df12e073: registering service...
+2019-08-20 22:14:59.647  INFO 21784 --- [tbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MICROSERVICE1/microservice1:5fc6f5e40bfa08a10738e321df12e073 - registration status: 204
+2019-08-20 22:15:00.283  INFO 21784 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1566310500283, current=UP, previous=STARTING]
+2019-08-20 22:15:00.283  INFO 21784 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MICROSERVICE1/microservice1:5fc6f5e40bfa08a10738e321df12e073: registering service...
+2019-08-20 22:15:00.650  INFO 21784 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MICROSERVICE1/microservice1:5fc6f5e40bfa08a10738e321df12e073 - registration status: 204
+2019-08-20 22:15:02.131  INFO 21784 --- [           main] com.mycompany.myapp.Microservice1App     : Started Microservice1App in 31.758 seconds (JVM running for 32.89)
+2019-08-20 22:15:02.145  WARN 21784 --- [           main] com.mycompany.myapp.Microservice1App     : The host name could not be determined, using `localhost` as fallback
+2019-08-20 22:15:02.146  INFO 21784 --- [           main] com.mycompany.myapp.Microservice1App     : 
+----------------------------------------------------------
+	Application 'microservice1' is running! Access URLs:
+	Local: 		http://localhost:8081/
+	External: 	http://localhost:8081/
+	Profile(s): 	[dev, swagger]
+----------------------------------------------------------
+2019-08-20 22:15:02.146  INFO 21784 --- [           main] com.mycompany.myapp.Microservice1App     : 
+----------------------------------------------------------
+	Config Server: 	Connected to the JHipster Registry config server, using https://github.com/jhipster/jhipster-registry-sample-config !
+----------------------------------------------------------
+2019-08-20 22:19:53.671  INFO 21784 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-08-20 22:24:53.673  INFO 21784 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-08-20 22:29:53.682  INFO 21784 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-08-20 22:34:53.689  INFO 21784 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-08-20 22:39:53.693  INFO 21784 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-08-20 22:44:53.721  INFO 21784 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-08-20 22:49:53.739  INFO 21784 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-08-20 22:54:53.747  INFO 21784 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-08-20 22:59:53.750  INFO 21784 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-08-20 23:04:53.776  INFO 21784 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-08-20 23:09:53.796  INFO 21784 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-08-20 23:14:53.801  INFO 21784 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-08-20 23:19:53.802  INFO 21784 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-08-20 23:24:53.804  INFO 21784 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-08-20 23:29:53.805  INFO 21784 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-08-20 23:34:53.808  INFO 21784 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-08-20 23:39:53.809  INFO 21784 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-08-20 23:44:53.810  INFO 21784 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-08-20 23:49:53.811  INFO 21784 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-08-20 23:54:53.812  INFO 21784 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-08-20 23:59:53.813  INFO 21784 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-08-21 00:04:53.816  INFO 21784 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-08-21 00:09:53.827  INFO 21784 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-08-21 00:10:34.909  WARN 21784 --- [       Thread-9] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1566317434909, current=DOWN, previous=UP]
+2019-08-21 00:10:34.963  WARN 21784 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1566317434963, current=UP, previous=DOWN]
+2019-08-21 00:10:34.964  INFO 21784 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MICROSERVICE1/microservice1:5fc6f5e40bfa08a10738e321df12e073: registering service...
+[0;33mApplication is running as root (UID 0). This is considered insecure.[0m
+
+        ██╗ ██╗   ██╗ ████████╗ ███████╗   ██████╗ ████████╗ ████████╗ ███████╗
+        ██║ ██║   ██║ ╚══██╔══╝ ██╔═══██╗ ██╔════╝ ╚══██╔══╝ ██╔═════╝ ██╔═══██╗
+        ██║ ████████║    ██║    ███████╔╝ ╚█████╗     ██║    ██████╗   ███████╔╝
+  ██╗   ██║ ██╔═══██║    ██║    ██╔════╝   ╚═══██╗    ██║    ██╔═══╝   ██╔══██║
+  ╚██████╔╝ ██║   ██║ ████████╗ ██║       ██████╔╝    ██║    ████████╗ ██║  ╚██╗
+   ╚═════╝  ╚═╝   ╚═╝ ╚═══════╝ ╚═╝       ╚═════╝     ╚═╝    ╚═══════╝ ╚═╝   ╚═╝
+
+:: JHipster 🤓  :: Running Spring Boot 2.1.6.RELEASE ::
+:: https://www.jhipster.tech ::
+
+2019-08-23 22:30:39.440  INFO 14403 --- [           main] com.mycompany.myapp.Microservice1App     : The following profiles are active: dev,swagger
+2019-08-23 22:30:42.941  WARN 14403 --- [           main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-08-23 22:30:45.689  WARN 14403 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-08-23 22:30:47.332  INFO 14403 --- [           main] c.mycompany.myapp.config.WebConfigurer   : Web application configuration, using profiles: dev
+2019-08-23 22:30:47.334  INFO 14403 --- [           main] c.mycompany.myapp.config.WebConfigurer   : Web application fully configured
+2019-08-23 22:30:47.496 DEBUG 14403 --- [           main] c.m.myapp.config.AsyncConfiguration      : Creating Async Task Executor
+2019-08-23 22:30:47.519 DEBUG 14403 --- [           main] c.m.myapp.config.LiquibaseConfiguration  : Configuring Liquibase
+2019-08-23 22:30:47.835  WARN 14403 --- [ervice-1-task-1] i.g.j.c.liquibase.AsyncSpringLiquibase   : Starting Liquibase asynchronously, your database might not be ready at startup!
+2019-08-23 22:30:52.397 DEBUG 14403 --- [ervice-1-task-1] i.g.j.c.liquibase.AsyncSpringLiquibase   : Liquibase has updated your database in 4558 ms
+2019-08-23 22:30:54.629  INFO 14403 --- [           main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-08-23 22:30:55.119  INFO 14403 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-08-23 22:30:55.119  INFO 14403 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-08-23 22:30:55.545  INFO 14403 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-08-23 22:30:55.546  INFO 14403 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-08-23 22:30:56.038  INFO 14403 --- [           main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-08-23 22:30:56.088  INFO 14403 --- [           main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2019-08-23 22:30:56.088  INFO 14403 --- [           main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2019-08-23 22:30:56.088  INFO 14403 --- [           main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2019-08-23 22:30:56.088  INFO 14403 --- [           main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2019-08-23 22:30:56.088  INFO 14403 --- [           main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2019-08-23 22:30:56.088  INFO 14403 --- [           main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2019-08-23 22:30:56.088  INFO 14403 --- [           main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2019-08-23 22:30:56.581  INFO 14403 --- [           main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2019-08-23 22:30:56.587  INFO 14403 --- [           main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 5
+2019-08-23 22:30:56.592  INFO 14403 --- [           main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 12
+2019-08-23 22:30:56.599  INFO 14403 --- [           main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1566570656597 with initial instances count: 1
+2019-08-23 22:30:59.150 DEBUG 14403 --- [           main] c.m.m.c.o.OAuth2JwtAccessTokenConverter  : Public key retrieved from OAuth2 server to create SignatureVerifier
+2019-08-23 22:30:59.388  WARN 14403 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-08-23 22:31:00.470 DEBUG 14403 --- [           main] i.g.j.c.apidoc.SwaggerAutoConfiguration  : Starting Swagger
+2019-08-23 22:31:00.486 DEBUG 14403 --- [           main] i.g.j.c.apidoc.SwaggerAutoConfiguration  : Started Swagger in 16 ms
+2019-08-23 22:31:01.978  INFO 14403 --- [tbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MICROSERVICE1/microservice1:e9d1b320957be7050fca8a506c9d0c65 - Re-registering apps/MICROSERVICE1
+2019-08-23 22:31:02.014  INFO 14403 --- [tbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MICROSERVICE1/microservice1:e9d1b320957be7050fca8a506c9d0c65: registering service...
+2019-08-23 22:31:02.239  INFO 14403 --- [tbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MICROSERVICE1/microservice1:e9d1b320957be7050fca8a506c9d0c65 - registration status: 204
+2019-08-23 22:31:02.267  INFO 14403 --- [           main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1566570662267, current=UP, previous=STARTING]
+2019-08-23 22:31:03.047  INFO 14403 --- [           main] com.mycompany.myapp.Microservice1App     : Started Microservice1App in 32.739 seconds (JVM running for 33.826)
+2019-08-23 22:31:03.094  WARN 14403 --- [           main] com.mycompany.myapp.Microservice1App     : The host name could not be determined, using `localhost` as fallback
+2019-08-23 22:31:03.094  INFO 14403 --- [           main] com.mycompany.myapp.Microservice1App     : 
+----------------------------------------------------------
+	Application 'microservice1' is running! Access URLs:
+	Local: 		http://localhost:8081/
+	External: 	http://localhost:8081/
+	Profile(s): 	[dev, swagger]
+----------------------------------------------------------
+2019-08-23 22:31:03.095  INFO 14403 --- [           main] com.mycompany.myapp.Microservice1App     : 
+----------------------------------------------------------
+	Config Server: 	Connected to the JHipster Registry config server, using https://github.com/jhipster/jhipster-registry-sample-config !
+----------------------------------------------------------
+2019-08-23 22:31:04.953  INFO 14403 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MICROSERVICE1/microservice1:e9d1b320957be7050fca8a506c9d0c65: registering service...
+2019-08-23 22:31:05.237  INFO 14403 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MICROSERVICE1/microservice1:e9d1b320957be7050fca8a506c9d0c65 - registration status: 204
+2019-08-23 22:35:56.111  INFO 14403 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-08-23 22:40:56.114  INFO 14403 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-08-23 22:45:56.115  INFO 14403 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-08-23 22:50:56.117  INFO 14403 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-08-23 22:55:56.119  INFO 14403 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
