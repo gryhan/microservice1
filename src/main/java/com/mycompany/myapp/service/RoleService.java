@@ -6,7 +6,6 @@ import com.mycompany.myapp.service.dto.RoleDTO;
 import com.mycompany.myapp.service.mapper.RoleMapper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
@@ -54,8 +53,8 @@ public class RoleService {
     @Transactional(readOnly = true)
     public Page<RoleDTO> findAll(Pageable pageable) {
         log.debug("Request to get all Roles");
-        return roleRepository.findAll(pageable)
-            .map(roleMapper::toDto);
+        Page<Role> all = roleRepository.findAll(pageable);
+        return all.map(roleMapper::toDto);
     }
 
 
